@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapils.com/css?family=Montserrat:500');
+
+/* The navbar */
+.nav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Navbar links */
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: rgba(0,136,169,1);
+}
+
+.nav_links{
+  float: right;
+}
+
+
+
+.nav_links li a:hover{
+  color: #0088a9;
+}
+  button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  button:hover{
+    background-color: rgba(0,136,169,0.8);
+  }
+
+body,html{
+  height: 100%;
+  margin: 0;
+}
+
+.logo{
+  height: 85px;
+  float: left;
+}
+
+ .background-image{
+    background-image:url(background.jpg);
+    background-size:cover;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:90%;
+  }
+
+  .main-text{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding-top: 40px;
+  }
+
+
+  .text{
+    text-align: center;
+    color:#7cffe7;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 0px;
+  }
+
+  .footer{
+    overflow: hidden;
+    background-color: black;
+  }
+  .social-links{
+    text-align: center;
+    padding-left: 20px;
+    margin-left: 50px;
+  }
+
+  .social-image{
+    width: 40px;
+    height: 40px;
+    padding:20px 20px 20px 0;
+  }
+.body{
+  color: aliceblue;
+  text-decoration: wavy;
+  text-size-adjust: 18px;
+}
+
+.form{
+  padding-left: 40px;
+}
+.lab{
+  margin-left: 40%;
+    margin-right: auto;
+    width: 18em;
+  margin-top:10px;
+  color: white;
+}
+
+.button-link{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.bn{
+  background-color: black;
+}
+.bb{
+  color: white;
+  text-align: center;
+}
